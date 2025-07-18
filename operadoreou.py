@@ -11,7 +11,7 @@ else:
         print("Saldo: R$ 77,777.777")
     elif tem_dinheiro and not senha_ok:
         print("Senha Incorreta!!!!!")
-    elif not tem_dinheiro & senha_ok:
+    elif not tem_dinheiro and senha_ok:
         print("Saldo Insuficiente!!!!!")
     else:
         print("Sem saldo e senha incorreta!")
